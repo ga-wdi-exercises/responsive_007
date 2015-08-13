@@ -24,67 +24,75 @@ a {
 
 .page {
   background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
   max-width: 900px;
+  overflow: hidden;
 }
 
 .header {
-  background: url("../images/header.png") center top;
+  background: black url('../images/header.png') no-repeat center top;
   background-size: cover;
+  border-bottom: 10px solid #000;
+  color: #fff;
+  padding: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
   .header img {
-    margin: 20px;
+    max-width: 380px;
     width: 30%;
   }
 
 .nav {
   background-color: #B00;
-  list-style: none;
   float: left;
+  list-style: none;
   margin: 0;
-  margin-right: 3%;
+  margin-right: 5%;
   padding: 0;
   width: 25%;
 }
 
   .nav a {
     border-bottom: 1px solid #900;
-    color: #fff;
+    color: white;
     display: block;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px 20px;
   }
 
   .nav a:hover {
-    background-color: #900;
+    background-color: #D00;
   }
 
 .main {
   float: left;
+  margin: 0 0 30px;
   width: 65%;
 }
 
   .main img {
     float: left;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    width: 25%;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    width: 30%;
   }
 
 .breadcrumbs {
-  list-style: none;
-  margin: 10px 0;
+  font-weight: bold;
+  margin: 20px 0;
   padding: 0;
 }
 
   .breadcrumbs li {
     display: inline;
   }
-
+  
   .breadcrumbs li:before {
-    content: '>';
-    margin: 10px;
+    content: "\00BB";
+    margin: 0 10px;
   }
 
   .breadcrumbs li:first-child:before {
@@ -92,35 +100,42 @@ a {
   }
 
 .footer {
+  background-color: #B00;
   clear: both;
+  margin: 0;
+  padding: 10px 20px;
 }
+  
+  .footer a {
+    color: white;
+  }
+
+  .footer li {
+    border-right: 1px solid #900;
+    display: inline;
+    margin-right: 15px;
+    padding-right: 15px;
+  }
 
 
-@media (max-width: 720px) {
-
+@media screen and (max-width: 800px) {
   .nav {
     float: none;
     margin: 0;
+    overflow: auto;
     width: auto;
   }
   
-    .nav li {
-      display: inline-block;
-    }
-
-    .nav a {
-      border-right: 1px solid #900;
-    }
-
+  .nav li {
+    border-right: 1px solid #900;
+    display: inline-block;
+    float: left;
+  }
+  
   .main {
     float: none;
     margin: 0;
-    padding: 15px;
+    padding: 0 20px;
     width: auto;
   }
-
-}
-
-@media (max-width: 400px) {
-
 }
