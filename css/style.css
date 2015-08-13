@@ -93,5 +93,19 @@ a {
   }
 
 .footer {
+  background-color: #B00;
   clear: both;
+  margin: 0;
+  padding: 10px 20px;
 }
+  
+  .footer a {
+    color: white;
+  }
+
+  .footer li {
+    border-right: 1px solid #900;
+    display: inline;
+    margin-right: 15px;
+    padding-right: 15px;
+  }
