@@ -7,3 +7,9 @@ Notes:
 - **DO NOT MODIFY THE HTML**
 - Look up `max-width` (css).
 - Look up `@media` (css).
+
+## Bonus
+
+Take a look at the navigation patterns here - https://bradfrost.github.io/this-is-responsive/patterns.html#navigation
+
+Try implementing one of those with the navigation on this site.
