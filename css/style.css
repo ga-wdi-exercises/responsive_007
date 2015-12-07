@@ -57,7 +57,7 @@ a {
 
   .nav a {
     border-bottom: 1px solid #900;
-    color: white;
+    color: #fff;
     display: block;
     font-weight: bold;
     padding: 10px 20px;
@@ -89,9 +89,9 @@ a {
   .breadcrumbs li {
     display: inline;
   }
-  
+
   .breadcrumbs li:before {
-    content: "\00BB";
+    content: '\00BB';
     margin: 0 10px;
   }
 
@@ -105,9 +105,9 @@ a {
   margin: 0;
   padding: 10px 20px;
 }
-  
+
   .footer a {
-    color: white;
+    color: #fff;
   }
 
   .footer li {
@@ -125,13 +125,13 @@ a {
     overflow: auto;
     width: auto;
   }
-  
+
   .nav li {
     border-right: 1px solid #900;
     display: inline-block;
     float: left;
   }
-  
+
   .main {
     float: none;
     margin: 0;
