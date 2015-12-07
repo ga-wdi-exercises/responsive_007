@@ -81,6 +81,7 @@ a {
   }
 
 .breadcrumbs {
+  list-style: none;
   font-weight: bold;
   margin: 20px 0;
   padding: 0;
