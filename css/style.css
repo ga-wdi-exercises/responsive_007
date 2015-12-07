@@ -84,7 +84,7 @@ a {
   }
 
   .breadcrumbs li:before {
-    content: '>';
+    content: '\00BB';
     margin: 10px;
   }
 
@@ -98,7 +98,7 @@ a {
   margin: 0;
   padding: 10px 20px;
 }
-  
+
   .footer a {
     color: white;
   }
