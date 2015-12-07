@@ -26,16 +26,22 @@ a {
 
 .page {
   background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header {
-  background: url("../images/header.png") center top;
+  background: black url("../images/header.png") no-repeat center top;
   background-size: cover;
+  border-bottom: 10px solid #000;
+  color: #fff;
+  padding: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
   .header img {
-    margin: 20px;
     width: 30%;
   }
 
@@ -44,7 +50,7 @@ a {
   list-style: none;
   float: left;
   margin: 0;
-  margin-right: 3%;
+  margin-right: 5%;
   padding: 0;
   width: 25%;
 }
@@ -54,28 +60,30 @@ a {
     color: #fff;
     display: block;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px 20px;
   }
 
   .nav a:hover {
-    background-color: #900;
+    background-color: #D00;
   }
 
 .main {
   float: left;
+  margin: 0 0 30px;
   width: 65%;
 }
 
   .main img {
     float: left;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    width: 25%;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    width: 30%;
   }
 
 .breadcrumbs {
   list-style: none;
-  margin: 10px 0;
+  margin: 20px 0;
+  font-weight: bold;
   padding: 0;
 }
 
@@ -85,7 +93,7 @@ a {
 
   .breadcrumbs li:before {
     content: '\00BB';
-    margin: 10px;
+    margin: 0 10px;
   }
 
   .breadcrumbs li:first-child:before {
